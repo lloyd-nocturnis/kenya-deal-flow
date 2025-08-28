@@ -22,8 +22,8 @@ const Navbar = () => {
               <Building className="w-6 h-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-primary">Buy Box Cartel</h1>
-              <p className="text-xs text-muted-foreground">Kenya</p>
+              <h1 className="text-xl font-bold bg-gradient-hero bg-clip-text text-transparent">HomeBox</h1>
+              <p className="text-xs text-primary/70 font-medium">Kenya</p>
             </div>
           </div>
 

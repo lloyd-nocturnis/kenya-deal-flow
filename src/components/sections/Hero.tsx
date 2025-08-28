@@ -27,15 +27,15 @@ const Hero = () => {
           {/* Main Headline */}
           <div className="mb-8">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Find Your Next
-              <span className="block bg-gradient-to-r from-accent-red to-warning bg-clip-text text-transparent">
-                Real Estate Deal
+              Discover Your Perfect
+              <span className="block bg-gradient-to-r from-accent-red via-warning to-accent-orange bg-clip-text text-transparent animate-pulse">
+                Property Investment
               </span>
               in Kenya
             </h1>
             <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-3xl mx-auto leading-relaxed">
-              Connect buyers with wholesale properties. Smart matching algorithm finds 
-              the perfect properties for your buy box criteria across Kenya.
+              Kenya's smartest real estate platform. Advanced matching technology 
+              connects serious investors with premium wholesale opportunities.
             </p>
           </div>
 
@@ -43,15 +43,15 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button 
               size="lg" 
-              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-lg text-lg px-8 py-6"
+              className="bg-gradient-to-r from-primary-foreground to-primary-foreground/90 text-primary hover:from-primary-foreground/90 hover:to-primary-foreground/80 shadow-xl transform hover:scale-105 transition-all duration-300 text-lg px-8 py-6"
             >
-              Start as Buyer
+              Start Investing
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button 
               variant="outline" 
               size="lg"
-              className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 text-lg px-8 py-6"
+              className="border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground/20 backdrop-blur-sm transform hover:scale-105 transition-all duration-300 text-lg px-8 py-6"
             >
               List Properties
             </Button>
@@ -60,13 +60,15 @@ const Hero = () => {
           {/* Stats Cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {stats.map((stat, index) => (
-              <Card key={index} className="p-6 bg-primary-foreground/10 backdrop-blur-md border-primary-foreground/20 hover:bg-primary-foreground/20 transition-all duration-300">
+              <Card key={index} className="p-6 bg-gradient-to-br from-primary-foreground/15 to-primary-foreground/5 backdrop-blur-md border-primary-foreground/30 hover:bg-gradient-to-br hover:from-primary-foreground/25 hover:to-primary-foreground/10 hover:border-primary-foreground/40 transform hover:scale-105 transition-all duration-300 hover:shadow-2xl">
                 <div className="flex flex-col items-center text-center">
-                  <stat.icon className="w-8 h-8 text-primary-foreground mb-2" />
+                  <div className="p-3 rounded-full bg-primary-foreground/20 mb-3">
+                    <stat.icon className="w-8 h-8 text-primary-foreground" />
+                  </div>
                   <div className="text-2xl font-bold text-primary-foreground mb-1">
                     {stat.value}
                   </div>
-                  <div className="text-primary-foreground/80 text-sm">
+                  <div className="text-primary-foreground/80 text-sm font-medium">
                     {stat.label}
                   </div>
                 </div>
