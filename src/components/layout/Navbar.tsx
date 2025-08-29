@@ -8,7 +8,7 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", href: "#home", icon: Home },
     { name: "Properties", href: "#properties", icon: Building },
-    { name: "Buy Boxes", href: "#buyboxes", icon: Users },
+    { name: "Home Boxes", href: "#homeboxes", icon: Users },
     { name: "Dashboard", href: "#dashboard", icon: BarChart3 },
   ];
 

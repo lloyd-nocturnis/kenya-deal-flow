@@ -14,7 +14,7 @@ const Pricing = () => {
       color: "info",
       popular: false,
       features: [
-        "Up to 2 active buy boxes",
+        "Up to 2 active home boxes",
         "Basic property matching",
         "Email notifications",
         "Standard support",
@@ -31,7 +31,7 @@ const Pricing = () => {
       color: "primary",
       popular: true,
       features: [
-        "Up to 5 active buy boxes",
+        "Up to 5 active home boxes",
         "Advanced AI matching",
         "Real-time notifications",
         "Priority support",
@@ -50,7 +50,7 @@ const Pricing = () => {
       color: "warning",
       popular: false,
       features: [
-        "Unlimited buy boxes",
+        "Unlimited home boxes",
         "Custom matching algorithms",
         "White-label solution",
         "Dedicated account manager",

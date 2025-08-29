@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 
 const BuyerDashboard = () => {
-  const buyBoxes = [
+  const homeBoxes = [
     {
       id: 1,
       location: "Nairobi CBD",
@@ -100,7 +100,7 @@ const BuyerDashboard = () => {
             </Button>
             <Button variant="default">
               <Plus className="w-4 h-4 mr-2" />
-              New Buy Box
+              New Home Box
             </Button>
           </div>
         </div>
@@ -110,7 +110,7 @@ const BuyerDashboard = () => {
           <Card className="p-6">
             <div className="flex items-center justify-between">
               <div>
-                <p className="text-muted-foreground text-sm font-medium">Active Buy Boxes</p>
+                <p className="text-muted-foreground text-sm font-medium">Active Home Boxes</p>
                 <p className="text-2xl font-bold text-foreground">5</p>
               </div>
               <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -157,13 +157,13 @@ const BuyerDashboard = () => {
           {/* Buy Boxes Section */}
           <div className="lg:col-span-1">
             <div className="flex items-center justify-between mb-6">
-              <h3 className="text-xl font-semibold text-foreground">Your Buy Boxes</h3>
+              <h3 className="text-xl font-semibold text-foreground">Your Home Boxes</h3>
               <Button variant="ghost" size="sm">
                 <Plus className="w-4 h-4" />
               </Button>
             </div>
             <div className="space-y-4">
-              {buyBoxes.map((box) => (
+              {homeBoxes.map((box) => (
                 <Card key={box.id} className="p-4 hover:shadow-lg transition-all duration-200">
                   <div className="flex items-start justify-between mb-3">
                     <div className="flex items-center space-x-2">

@@ -6,7 +6,7 @@ const Features = () => {
   const features = [
     {
       icon: Target,
-      title: "Smart Buy Box Matching",
+      title: "Smart Home Box Matching",
       description: "Set your investment criteria and our algorithm finds properties that match your budget, location, and property type preferences.",
       color: "success"
     },
@@ -19,7 +19,7 @@ const Features = () => {
     {
       icon: Zap,
       title: "Real-Time Notifications",
-      description: "Get instant alerts when new properties match your buy box criteria or when someone shows interest in your listing.",
+      description: "Get instant alerts when new properties match your home box criteria or when someone shows interest in your listing.",
       color: "warning"
     },
     {
@@ -81,7 +81,7 @@ const Features = () => {
             <span className="block text-primary">Real Estate Success</span>
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            From smart matching to secure payments, Buy Box Cartel Kenya provides all the tools 
+            From smart matching to secure payments, HomeBox Kenya provides all the tools 
             you need to succeed in the real estate wholesale market.
           </p>
         </div>
@@ -115,7 +115,7 @@ const Features = () => {
               Ready to Transform Your Real Estate Business?
             </h3>
             <p className="text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-              Join hundreds of successful buyers and brokers already using Buy Box Cartel Kenya 
+              Join hundreds of successful buyers and brokers already using HomeBox Kenya 
               to close more deals and grow their portfolios.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
